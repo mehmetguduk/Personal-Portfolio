@@ -1,0 +1,74 @@
+/*#################__STYLE__#################*/
+
+section#welcome-section {
+    height: 100vh;
+    position: relative;
+
+    img.welcome-image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    header.welcome-header {
+        position: absolute;
+        bottom: 100px;
+        text-align: center;
+        width: 100%;
+
+        h3#greeting {
+            color: var(--white);
+            font-weight: 300;
+            font-size: 35px;
+        }
+        h1#name {
+            color: var(--orange);
+            font-weight: 700;
+            font-size: 40px;
+        }
+        h4#job {
+            color: var(--white);
+            font-weight: 300;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    }
+}
+
+/*#################__RESPONSIVE__#################*/
+
+@media only screen and (max-width: 800px) {
+    section#welcome-section {
+        header.welcome-header {
+            bottom: 40px;
+
+            h3#greeting {
+                font-size: 30px;
+            }
+            h1#name {
+                font-size: 35px;
+            }
+            h4#job {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 230px) {
+    section#welcome-section {
+        header.welcome-header {
+            bottom: 40px;
+
+            h3#greeting {
+                font-size: 25px;
+            }
+            h1#name {
+                font-size: 30px;
+            }
+            h4#job {
+                font-size: 14px;
+            }
+        }
+    }
+}

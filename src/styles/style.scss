@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Poppins:wght@300;500;700&display=swap");
+
+:root {
+    --orange: #ff4500;
+    --white: #ffffff;
+    --black: #000000;
+    --bg1: #222222;
+    --bg2: #121212;
+    --bg3: #181818;
+    --bg4: #282828;
+    --text1: #bababa;
+    --text2: #a7a7a7;
+    --fontfamily1: "Jura", "Times New Roman", sans-serif;
+    --fontfamily2: "Times New Roman", "Jura", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--fontfamily1);
+    scroll-behavior: smooth;
+}
+
+h2.section-title {
+    font-family: var(--fontfamily2);
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 20px;
+    text-align: center;
+    padding: 50px 0;
+
+    span {
+        letter-spacing: 0;
+    }
+}
+
+a.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: var(--orange);
+    border-radius: 50%;
+    z-index: 100;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 322px) {
+    h2.section-title {
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    a.back-to-top {
+        display: none !important;
+    }
+}
