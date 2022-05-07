@@ -1,8 +1,8 @@
 import Project from "./Project"
-import Data from "../Database"
+import data from "../Database"
 
 export default function Projects() {
-    const projects = Data.map(project => {
+    const projects = data.map(project => {
         return (
             <Project
                 project={project}

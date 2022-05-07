@@ -12,7 +12,7 @@ import shutdowntimer from "./images/shutdowntimer.jpg"
 import currencyconverter from "./images/currencyconverter.jpg"
 import spotifyunfollower from "./images/spotifyunfollower.jpg"
 
-export default [
+const data = [
     {
         title: "Hepsiburada Navbar Design",
         image: hepsiburadanavbardesign,
@@ -100,3 +100,5 @@ export default [
         visitlink: "https://spotifyunfollowers.netlify.app/"
     },
 ]
+
+export default data

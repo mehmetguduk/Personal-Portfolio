@@ -10,7 +10,7 @@ section#welcome-section {
         height: 100%;
     }
 
-    div.welcome-header {
+    header.welcome-header {
         position: absolute;
         bottom: 100px;
         text-align: center;
@@ -39,7 +39,7 @@ section#welcome-section {
 
 @media only screen and (max-width: 800px) {
     section#welcome-section {
-        div.welcome-header {
+        header.welcome-header {
             bottom: 40px;
 
             h3#greeting {
@@ -57,7 +57,7 @@ section#welcome-section {
 
 @media only screen and (max-width: 230px) {
     section#welcome-section {
-        div.welcome-header {
+        header.welcome-header {
             bottom: 40px;
 
             h3#greeting {
