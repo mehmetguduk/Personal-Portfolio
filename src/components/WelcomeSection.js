@@ -12,3 +12,8 @@ export default function WelcomeSection() {
         </section>
     )
 }
+
+// ***** WHILE STARTING *****
+
+const JOB = document.querySelector("#job");
+JOB.innerHTML = "< Web Developer & Designer />"
