@@ -2,7 +2,7 @@ export default function Project(props) {
     return (
         <div class="project-tile">
             <div class="project-content">
-                <img class="project-image" src={props.project.image} alt="Project Image" />
+                <img class="project-image" src={props.project.image} alt="Project Cover" />
                 <div class="project-details">
                     <h3 class="project-title">{props.project.title}</h3>
                     <div class="project-links">
