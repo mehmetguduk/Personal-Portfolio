@@ -6,8 +6,8 @@ export default function Project(props) {
                 <div class="project-details">
                     <h3 class="project-title">{props.project.title}</h3>
                     <div class="project-links">
-                        <a class="project-link button-github" href={props.project.githublink} target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        {props.project.visitlink && <a class="project-link button-visit" href={props.project.visitlink} target="_blank"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Visit</a>}
+                        <a class="project-link button-github" href={props.project.githublink} target="_blank" rel="noreferrer"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                        {props.project.visitlink && <a class="project-link button-visit" href={props.project.visitlink} target="_blank" rel="noreferrer"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Visit</a>}
                     </div>
                     <p class="project-text">{props.project.description}</p>
                 </div>
