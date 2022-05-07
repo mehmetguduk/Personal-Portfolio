@@ -14,7 +14,7 @@ export default function App() {
             <Projects />
             <Contact />
             <Footer />
-            <a class="back-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+            <span class="back-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
         </div>
     );
 }
