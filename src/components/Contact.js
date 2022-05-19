@@ -21,10 +21,11 @@ export default function Contact() {
 
     function formSubmitHandler(event) {
         event.preventDefault()
+        console.log(new URLSearchParams(formData).toString())
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(formData),
+            body: new URLSearchParams(formData).toString(),
         })
             .then(() => console.log("Form successfully submitted"))
             .catch((error) => alert(error));
@@ -38,6 +39,7 @@ export default function Contact() {
                 data-netlify="true"
                 name="contact"
                 onSubmit={formSubmitHandler}
+                method="POST"
             >
                 <p class="form-error"></p>
                 <input
