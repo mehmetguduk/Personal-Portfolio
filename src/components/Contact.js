@@ -33,29 +33,20 @@ export default function Contact() {
                     name="name"
                     type="text"
                     placeholder="Name"
-
-
                 />
                 <input
                     id="contact-email"
                     name="email"
                     type="email"
                     placeholder="Email"
-
                 />
                 <input
                     id="contact-subject"
                     name="subject"
                     type="text"
                     placeholder="Subject"
-
                 />
-                <textarea
-                    id="contact-message"
-                    name="message"
-                    placeholder="Message"
 
-                />
                 <button
                     class="form-submit"
                     type="submit">
