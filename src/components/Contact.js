@@ -31,7 +31,6 @@ export default function Contact() {
                 <input
                     id="contact-name"
                     name="name"
-                    value="{formData.name}"
                     type="text"
                     placeholder="Name"
                     autoComplete="off"
@@ -42,7 +41,6 @@ export default function Contact() {
                 <input
                     id="contact-email"
                     name="email"
-                    value="{formData.email}"
                     type="email"
                     placeholder="Email"
                     autoComplete="off"
@@ -52,7 +50,6 @@ export default function Contact() {
                 <input
                     id="contact-subject"
                     name="subject"
-                    value="{formData.subject}"
                     type="text"
                     placeholder="Subject"
                     autoComplete="off"
@@ -63,7 +60,6 @@ export default function Contact() {
                 <textarea
                     id="contact-message"
                     name="message"
-                    value="{formData.message}"
                     placeholder="Message"
                     autoComplete="off"
                     spellCheck="false"
