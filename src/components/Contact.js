@@ -9,8 +9,6 @@ export default function Contact() {
         message: ""
     })
 
-    const [test1, settest1] = React.useState({})
-
     function formChangeHandler(event) {
         const { name, value } = event.target;
         setFormData((prevFormData) => {
@@ -24,20 +22,14 @@ export default function Contact() {
     function formSubmitHandler(event) {
         event.preventDefault()
 
-        settest1(event.target)
-        Test()
-    }
-
-    function Test(){
-        React.useEffect(function () {
-            fetch("/", {
-                method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams(new FormData(test1)).toString(),
-            })
-                .then(() => console.log("Form successfully submitted"))
-                .catch((error) => alert(error));
+        let form = new FormData(event.target);
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(form).toString(),
         })
+            .then(() => console.log("Form successfully submitted"))
+            .catch((error) => alert(error));
     }
 
     return (
