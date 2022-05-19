@@ -2,12 +2,6 @@ import React from "react"
 
 export default function Contact() {
 
-    const encode = (data) => {
-        return Object.keys(data)
-            .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-            .join("&");
-    };
-
     const [formData, setFormData] = React.useState({
         name: "",
         email: "",
@@ -25,29 +19,17 @@ export default function Contact() {
         })
     }
 
-    function formSubmitHandler(event) {
-        event.preventDefault()
 
-        // let form = new FormData(event.target);
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode(formData),
-        })
-            .then(() => console.log("Form successfully submitted"))
-            .catch((error) => alert(error));
-    }
+
 
     return (
         <section id="contact">
             <h2 class="section-title">CONTAC<span>T</span></h2>
             <form
                 class="contact-form"
-                data-netlify="true"
                 name="contact"
-                onSubmit={formSubmitHandler}
                 method="POST"
-                action="/"
+                netlify netlify-honeypot="bot-field"
             >
                 <p class="form-error"></p>
                 <input
