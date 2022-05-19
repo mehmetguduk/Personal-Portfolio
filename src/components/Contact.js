@@ -28,23 +28,24 @@ export default function Contact() {
                 method="post"
             >
                 <p class="form-error"></p>
+                <input type="hidden" name="form-name" value="contact" />
                 <input
+                    type="text"
+
                     id="contact-name"
                     name="name"
-                    type="text"
-                    placeholder="Name"
                 />
                 <input
+                    type="email"
+
                     id="contact-email"
                     name="email"
-                    type="email"
-                    placeholder="Email"
                 />
                 <input
+                    type="text"
+
                     id="contact-subject"
                     name="subject"
-                    type="text"
-                    placeholder="Subject"
                 />
 
                 <button
