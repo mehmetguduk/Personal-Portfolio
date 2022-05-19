@@ -21,7 +21,7 @@ export default function Contact() {
 
     function formSubmitHandler(event) {
         event.preventDefault()
-        let form = new FormData(formData);
+        let form = new FormData(event.target);
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
