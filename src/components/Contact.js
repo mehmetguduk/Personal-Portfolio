@@ -1,26 +1,23 @@
 import React from "react"
 
 export default function Contact() {
-    /* 
-        const [formData, setFormData] = React.useState({
-            name: "",
-            email: "",
-            subject: "",
-            message: ""
-        })
-    
-        function formChangeHandler(event) {
-            const { name, value } = event.target;
-            setFormData((prevFormData) => {
-                return ({
-                    ...prevFormData,
-                    [name]: [value]
-                })
-            })
-        }
-    
-    */
 
+    const [formData, setFormData] = React.useState({
+        name: "a",
+        email: "b",
+        subject: "c",
+        message: "d"
+    })
+
+    function formChangeHandler(event) {
+        const { name, value } = event.target;
+        setFormData((prevFormData) => {
+            return ({
+                ...prevFormData,
+                [name]: [value]
+            })
+        })
+    }
 
     return (
         <section id="contact">
@@ -34,7 +31,8 @@ export default function Contact() {
                 <input
                     id="contact-name"
                     name="name"
-
+                    value={formData.name}
+                    onChange={formChangeHandler}
                     type="text"
                     placeholder="Name"
                     autoComplete="off"
@@ -45,7 +43,8 @@ export default function Contact() {
                 <input
                     id="contact-email"
                     name="email"
-
+                    value={formData.email}
+                    onChange={formChangeHandler}
                     type="email"
                     placeholder="Email"
                     autoComplete="off"
@@ -55,7 +54,8 @@ export default function Contact() {
                 <input
                     id="contact-subject"
                     name="subject"
-
+                    value={formData.subject}
+                    onChange={formChangeHandler}
                     type="text"
                     placeholder="Subject"
                     autoComplete="off"
@@ -66,7 +66,8 @@ export default function Contact() {
                 <textarea
                     id="contact-message"
                     name="message"
-
+                    value={formData.message}
+                    onChange={formChangeHandler}
                     placeholder="Message"
                     autoComplete="off"
                     spellCheck="false"
