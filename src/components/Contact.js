@@ -77,11 +77,11 @@ export default function Contact() {
                     required
                     minLength="20"
                 />
-                <button
+                <input
                     class="form-submit"
-                    type="submit">
-                    Submit <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                </button>
+                    type="submit"
+                    value="submit" 
+                />
             </form>
         </section>
     )
