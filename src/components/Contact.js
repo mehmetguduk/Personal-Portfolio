@@ -21,14 +21,13 @@ export default function Contact() {
 
 
 
-
     return (
         <section id="contact">
             <h2 class="section-title">CONTAC<span>T</span></h2>
             <form
                 class="contact-form"
+                data-netlify="true"
                 name="contact"
-                method="POST"
                 netlify netlify-honeypot="bot-field"
             >
                 <p class="form-error"></p>
