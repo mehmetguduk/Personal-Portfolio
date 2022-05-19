@@ -27,8 +27,8 @@ export default function Contact() {
             <form
                 class="contact-form"
                 data-netlify="true"
+                action="/"
                 name="contact"
-                netlify netlify-honeypot="bot-field"
             >
                 <p class="form-error"></p>
                 <input
