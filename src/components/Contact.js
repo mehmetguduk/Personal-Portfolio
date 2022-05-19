@@ -22,14 +22,22 @@ export default function Contact() {
     function formSubmitHandler(event) {
         event.preventDefault()
         let form = new FormData(event.target);
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(form).toString(),
-        })
-            .then(() => console.log("Form successfully submitted"))
-            .catch((error) => alert(error));
+        Send(form)
     }
+
+    function Send(form){
+        React.useEffect(() => {
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(form).toString(),
+            })
+                .then(() => console.log("Form successfully submitted"))
+                .catch((error) => alert(error));
+        }, [])
+    }
+
+
 
     return (
         <section id="contact">
