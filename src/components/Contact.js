@@ -9,6 +9,8 @@ export default function Contact() {
         message: ""
     })
 
+    const [test, setTest] = React.useState({})
+
     function formChangeHandler(event) {
         const { name, value } = event.target;
         setFormData((prevFormData) => {
@@ -21,16 +23,18 @@ export default function Contact() {
 
     function formSubmitHandler(event) {
         event.preventDefault()
-        let form = new FormData(event.target);
-        Send(form)
+        setTest(event.target)
+        Send()
     }
 
-    function Send(form){
+    function Send(){
+
+
         React.useEffect(() => {
             fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams(form).toString(),
+                body: new URLSearchParams(new FormData(test)).toString(),
             })
                 .then(() => console.log("Form successfully submitted"))
                 .catch((error) => alert(error));
