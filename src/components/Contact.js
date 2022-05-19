@@ -2,11 +2,11 @@ import React from "react"
 
 export default function Contact() {
 
-    /*const [formData, setFormData] = React.useState({
-        name: "a",
-        email: "b",
-        subject: "c",
-        message: "d"
+    const [formData, setFormData] = React.useState({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
     })
 
     function formChangeHandler(event) {
@@ -18,7 +18,7 @@ export default function Contact() {
             })
         })
     }
-*/
+
     return (
         <section id="contact">
             <h2 class="section-title">CONTAC<span>T</span></h2>
@@ -28,25 +28,53 @@ export default function Contact() {
                 method="post"
             >
                 <p class="form-error"></p>
+                <input class="hidden-input" type="hidden" name="form-name" value="contact" />
                 <input
-                    type="text"
-
                     id="contact-name"
                     name="name"
+                    value={formData.name}
+                    onChange={formChangeHandler}
+                    type="text"
+                    placeholder="Name"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
+                    minLength="2"
                 />
                 <input
-                    type="email"
-
                     id="contact-email"
                     name="email"
+                    value={formData.email}
+                    onChange={formChangeHandler}
+                    type="email"
+                    placeholder="Email"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
                 />
                 <input
-                    type="text"
-
                     id="contact-subject"
                     name="subject"
+                    value={formData.subject}
+                    onChange={formChangeHandler}
+                    type="text"
+                    placeholder="Subject"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
+                    minLength="2"
                 />
-
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    value={formData.message}
+                    onChange={formChangeHandler}
+                    placeholder="Message"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
+                    minLength="20"
+                />
                 <button
                     class="form-submit"
                     type="submit">
