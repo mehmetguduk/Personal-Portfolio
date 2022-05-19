@@ -21,80 +21,81 @@ export default function Contact() {
 
     function formSubmitHandler(event) {
         event.preventDefault()
-        console.log(new URLSearchParams(formData).toString())
+        let form = new FormData(formData);
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(formData).toString(),
+            body: new URLSearchParams(form).toString(),
         })
             .then(() => console.log("Form successfully submitted"))
             .catch((error) => alert(error));
-    }
+    };
+}
 
-    return (
-        <section id="contact">
-            <h2 class="section-title">CONTAC<span>T</span></h2>
-            <form
-                class="contact-form"
-                data-netlify="true"
-                name="contact"
-                onSubmit={formSubmitHandler}
-                method="POST"
-            >
-                <p class="form-error"></p>
-                <input
-                    id="contact-name"
-                    name="name"
-                    value={formData.name}
-                    onChange={formChangeHandler}
-                    type="text"
-                    placeholder="Name"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
-                    minLength="2"
-                />
-                <input
-                    id="contact-email"
-                    name="email"
-                    value={formData.email}
-                    onChange={formChangeHandler}
-                    type="email"
-                    placeholder="Email"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
-                />
-                <input
-                    id="contact-subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={formChangeHandler}
-                    type="text"
-                    placeholder="Subject"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
-                    minLength="2"
-                />
-                <textarea
-                    id="contact-message"
-                    name="message"
-                    value={formData.message}
-                    onChange={formChangeHandler}
-                    placeholder="Message"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
-                    minLength="20"
-                />
-                <button
-                    class="form-submit"
-                    type="submit">
-                    Submit <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                </button>
-            </form>
-        </section>
-    )
+return (
+    <section id="contact">
+        <h2 class="section-title">CONTAC<span>T</span></h2>
+        <form
+            class="contact-form"
+            data-netlify="true"
+            name="contact"
+            onSubmit={formSubmitHandler}
+            method="POST"
+        >
+            <p class="form-error"></p>
+            <input
+                id="contact-name"
+                name="name"
+                value={formData.name}
+                onChange={formChangeHandler}
+                type="text"
+                placeholder="Name"
+                autoComplete="off"
+                spellCheck="false"
+                required
+                minLength="2"
+            />
+            <input
+                id="contact-email"
+                name="email"
+                value={formData.email}
+                onChange={formChangeHandler}
+                type="email"
+                placeholder="Email"
+                autoComplete="off"
+                spellCheck="false"
+                required
+            />
+            <input
+                id="contact-subject"
+                name="subject"
+                value={formData.subject}
+                onChange={formChangeHandler}
+                type="text"
+                placeholder="Subject"
+                autoComplete="off"
+                spellCheck="false"
+                required
+                minLength="2"
+            />
+            <textarea
+                id="contact-message"
+                name="message"
+                value={formData.message}
+                onChange={formChangeHandler}
+                placeholder="Message"
+                autoComplete="off"
+                spellCheck="false"
+                required
+                minLength="20"
+            />
+            <button
+                class="form-submit"
+                type="submit">
+                Submit <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </button>
+        </form>
+    </section>
+)
 }
 
