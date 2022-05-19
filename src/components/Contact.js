@@ -33,38 +33,28 @@ export default function Contact() {
                     name="name"
                     type="text"
                     placeholder="Name"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
-                    minLength="2"
+
+
                 />
                 <input
                     id="contact-email"
                     name="email"
                     type="email"
                     placeholder="Email"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
+
                 />
                 <input
                     id="contact-subject"
                     name="subject"
                     type="text"
                     placeholder="Subject"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
-                    minLength="2"
+
                 />
                 <textarea
                     id="contact-message"
                     name="message"
                     placeholder="Message"
-                    autoComplete="off"
-                    spellCheck="false"
-                    required
-                    minLength="20"
+
                 />
                 <button
                     class="form-submit"
