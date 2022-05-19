@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Contact() {
 
-    const [formData, setFormData] = React.useState({
+    /*const [formData, setFormData] = React.useState({
         name: "a",
         email: "b",
         subject: "c",
@@ -18,7 +18,7 @@ export default function Contact() {
             })
         })
     }
-
+*/
     return (
         <section id="contact">
             <h2 class="section-title">CONTAC<span>T</span></h2>
@@ -31,8 +31,7 @@ export default function Contact() {
                 <input
                     id="contact-name"
                     name="name"
-                    value={formData.name}
-                    onChange={formChangeHandler}
+                    value="{formData.name}"
                     type="text"
                     placeholder="Name"
                     autoComplete="off"
@@ -43,8 +42,7 @@ export default function Contact() {
                 <input
                     id="contact-email"
                     name="email"
-                    value={formData.email}
-                    onChange={formChangeHandler}
+                    value="{formData.email}"
                     type="email"
                     placeholder="Email"
                     autoComplete="off"
@@ -54,8 +52,7 @@ export default function Contact() {
                 <input
                     id="contact-subject"
                     name="subject"
-                    value={formData.subject}
-                    onChange={formChangeHandler}
+                    value="{formData.subject}"
                     type="text"
                     placeholder="Subject"
                     autoComplete="off"
@@ -66,8 +63,7 @@ export default function Contact() {
                 <textarea
                     id="contact-message"
                     name="message"
-                    value={formData.message}
-                    onChange={formChangeHandler}
+                    value="{formData.message}"
                     placeholder="Message"
                     autoComplete="off"
                     spellCheck="false"
