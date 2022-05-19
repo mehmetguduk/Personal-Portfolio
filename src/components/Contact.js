@@ -31,22 +31,48 @@ export default function Contact() {
                 method="post"
             >
                 <p class="form-error"></p>
-                <input type="hidden" name="form-name" value="contact" />
-                <p>
-                    <label htmlFor="name">Name</label> <br />
-                    <input type="text" id="name" name="name" required />
-                </p>
-                <p>
-                    <label htmlFor="email">Email</label> <br />
-                    <input type="email" id="email" name="email" required />
-                </p>
-                <p>
-                    <label htmlFor="message">Message</label> <br />
-                    <textarea id="message" name="message" required></textarea>
-                </p>
-                <p>
-                    <input type="submit" value="Submit message" />
-                </p>
+                <input
+                    id="contact-name"
+                    name="name"
+
+                    type="text"
+                    placeholder="Name"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
+                    minLength="2"
+                />
+                <input
+                    id="contact-email"
+                    name="email"
+
+                    type="email"
+                    placeholder="Email"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
+                />
+                <input
+                    id="contact-subject"
+                    name="subject"
+
+                    type="text"
+                    placeholder="Subject"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
+                    minLength="2"
+                />
+                <textarea
+                    id="contact-message"
+                    name="message"
+
+                    placeholder="Message"
+                    autoComplete="off"
+                    spellCheck="false"
+                    required
+                    minLength="20"
+                />
                 <button
                     class="form-submit"
                     type="submit">
