@@ -41,6 +41,7 @@ export default function Contact() {
                 name="contact"
                 onSubmit={formSubmitHandler}
                 method="POST"
+                action="/"
             >
                 <p class="form-error"></p>
                 <input
