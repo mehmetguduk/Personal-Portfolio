@@ -2,6 +2,12 @@ import React from "react"
 
 export default function Contact() {
 
+    const encode = (data) => {
+        return Object.keys(data)
+            .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+    };
+
     const [formData, setFormData] = React.useState({
         name: "",
         email: "",
@@ -22,11 +28,11 @@ export default function Contact() {
     function formSubmitHandler(event) {
         event.preventDefault()
 
-        let form = new FormData(event.target);
+        // let form = new FormData(event.target);
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(form).toString(),
+            body: encode(formData),
         })
             .then(() => console.log("Form successfully submitted"))
             .catch((error) => alert(error));
