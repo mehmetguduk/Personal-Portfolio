@@ -117,7 +117,7 @@ const data = [
         githublink: "https://github.com/mehmetguduk/Currency-Converter"
     },
     {
-        title: "Spotify Unfollowerr",
+        title: "Spotify Unfollower",
         image: spotifyunfollower,
         description: "🎶 A web app that shows who hasn't follow you back on Spotify. This project is for education purposes.",
         githublink: "https://github.com/mehmetguduk/Spotify-Unfollowers",
