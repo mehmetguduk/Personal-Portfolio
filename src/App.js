@@ -4,8 +4,11 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
 
 export default function App() {
+
+
     return (
         <div className="App">
             <Navbar />
@@ -14,7 +17,7 @@ export default function App() {
             <Projects />
             <Contact />
             <Footer />
-            <span class="back-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
+            <BackToTop/>
         </div>
     );
 }

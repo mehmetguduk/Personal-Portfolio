@@ -40,7 +40,6 @@ h2.section-title {
 }
 
 span.back-to-top {
-    display: none;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -57,8 +56,3 @@ span.back-to-top {
     }
 }
 
-@media only screen and (min-width: 450px) {
-    a.back-to-top {
-        display: none !important;
-    }
-}

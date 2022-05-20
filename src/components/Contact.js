@@ -27,7 +27,6 @@ export default function Contact() {
                 name="contact"
                 method="post"
             >
-                <p class="form-error"></p>
                 <input class="hidden-input" type="hidden" name="form-name" value="contact" />
                 <input
                     id="contact-name"
