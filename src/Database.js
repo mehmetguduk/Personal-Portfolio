@@ -14,6 +14,7 @@ import spotifyunfollower from "./images/spotifyunfollower.jpg"
 import mytraveljournal from "./images/mytraveljournal.jpg"
 import turkiyedeinternetchp from "./images/turkiyedeinternetchp.jpg"
 import digitalbusinesscard from "./images/digitalbusinesscard.jpg"
+import airbnbclone from "./images/airbnbclone.jpg"
 
 const data = [
     {
@@ -57,6 +58,13 @@ const data = [
         description: "🗺️ A Travel Journal app that including the places I have visited, made for to learn React fundamental.",
         githublink: "https://github.com/mehmetguduk/My-Travel-Journey",
         visitlink: "https://mytraveljournal-mg.netlify.app/"
+    },
+    {
+        title: "Airbnb Clone",
+        image: airbnbclone,
+        description: "🏖️ Airbnb Clone is a web application that has made for to learn React fundamental.",
+        githublink: "https://github.com/mehmetguduk/Airbnb-Clone",
+        visitlink: "https://airbnbclone-mg.netlify.app/"
     },
     {
         title: "Blog Template",
