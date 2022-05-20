@@ -12,6 +12,7 @@ import shutdowntimer from "./images/shutdowntimer.jpg"
 import currencyconverter from "./images/currencyconverter.jpg"
 import spotifyunfollower from "./images/spotifyunfollower.jpg"
 import mytraveljournal from "./images/mytraveljournal.jpg"
+import turkiyedeinternetchp from "./images/turkiyedeinternetchp.jpg"
 
 const data = [
     {
@@ -81,6 +82,13 @@ const data = [
         image: spotifyadblocker,
         description: "🎶 Spotify Adblocker is an application that has the feature to mute Spotify when ads come up. This application is for education purposes.",
         githublink: "https://github.com/mehmetguduk/Spotify-Adblocker"
+    },
+    {
+        title: "Türkiye'de İnternet",
+        image: turkiyedeinternetchp,
+        description: "🚀 Türkiye'de İnternet is a policy promotion page of a political party. Although all visuals and codes are made by me, I am not related to the information and statements contained in the content. The responsible of the content is Cumhuriyet Halk Partisi.",
+        githublink: "https://github.com/mehmetguduk/Turkiyede-Internet-Chp",
+        visitlink: "https://turkiyedeinternetchp-mg.netlify.app/"
     },
     {
         title: "Monty Hall Problem Simulation",
