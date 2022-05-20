@@ -13,6 +13,7 @@ import currencyconverter from "./images/currencyconverter.jpg"
 import spotifyunfollower from "./images/spotifyunfollower.jpg"
 import mytraveljournal from "./images/mytraveljournal.jpg"
 import turkiyedeinternetchp from "./images/turkiyedeinternetchp.jpg"
+import digitalbusinesscard from "./images/digitalbusinesscard.jpg"
 
 const data = [
     {
@@ -28,6 +29,13 @@ const data = [
         description: "📦 A product landing page for a Hosting Service Company. It was made for freeCodeCamp. Prices and service are not real.",
         githublink: "https://github.com/mehmetguduk/Hosting-Service-Product-Landing-Page-freeCodeCamp",
         visitlink: "https://hostingservice-mg.netlify.app/"
+    },
+    {
+        title: "Digital Business Card",
+        image: digitalbusinesscard,
+        description: "🧔 Digital Business Card about me, made for to learn React fundamental.",
+        githublink: "https://github.com/mehmetguduk/Digital-Business-Card",
+        visitlink: "https://digitalbusinesscard-mg.netlify.app/"
     },
     {
         title: "Survey Form",
@@ -46,7 +54,7 @@ const data = [
     {
         title: "My Travel Journal",
         image: mytraveljournal,
-        description: "🗺️ A Travel Journal app that including the places I have visited, made for to learn React basics.",
+        description: "🗺️ A Travel Journal app that including the places I have visited, made for to learn React fundamental.",
         githublink: "https://github.com/mehmetguduk/My-Travel-Journey",
         visitlink: "https://mytraveljournal-mg.netlify.app/"
     },
