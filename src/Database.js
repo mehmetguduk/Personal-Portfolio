@@ -11,6 +11,7 @@ import montyhallproblemsimulation from "./images/montyhallproblemsimulation.jpg"
 import shutdowntimer from "./images/shutdowntimer.jpg"
 import currencyconverter from "./images/currencyconverter.jpg"
 import spotifyunfollower from "./images/spotifyunfollower.jpg"
+import mytraveljournal from "./images/mytraveljournal.jpg"
 
 const data = [
     {
@@ -40,6 +41,13 @@ const data = [
         description: "🎖️ A responsive Tribute Page about Mustafa Kemal Atatürk. It was made for freeCodeCamp.",
         githublink: "https://github.com/mehmetguduk/Tribute-Page-freeCodeCamp",
         visitlink: "https://tributepage-mg.netlify.app/"
+    },
+    {
+        title: "My Travel Journal",
+        image: mytraveljournal,
+        description: "🗺️ A Travel Journal app that including the places I have visited, made for to learn React basics.",
+        githublink: "https://github.com/mehmetguduk/My-Travel-Journey",
+        visitlink: "https://mytraveljournal-mg.netlify.app/"
     },
     {
         title: "Blog Template",
@@ -100,5 +108,7 @@ const data = [
         visitlink: "https://spotifyunfollowers.netlify.app/"
     },
 ]
+
+
 
 export default data
