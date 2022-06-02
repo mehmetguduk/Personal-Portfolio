@@ -15,6 +15,7 @@ import mytraveljournal from "./images/mytraveljournal.jpg"
 import turkiyedeinternetchp from "./images/turkiyedeinternetchp.jpg"
 import digitalbusinesscard from "./images/digitalbusinesscard.jpg"
 import airbnbclone from "./images/airbnbclone.jpg"
+import tenziesdicegame from "./images/tenziesdicegame.jpg"
 
 const data = [
     {
@@ -37,6 +38,13 @@ const data = [
         description: "🧔 Digital Business Card about me, made for to learn React fundamental.",
         githublink: "https://github.com/mehmetguduk/Digital-Business-Card",
         visitlink: "https://digitalbusinesscard-mg.netlify.app/"
+    },
+    {
+        title: "Tenzies Dice Game",
+        image: tenziesdicegame,
+        description: "🎲 Tenzies Dice Game is a dice game where you try to get all the dice to the same number.",
+        githublink: "https://github.com/mehmetguduk/Tenzies-Dice-Game",
+        visitlink: "https://tenzies-dice-game-mg.netlify.app"
     },
     {
         title: "Survey Form",
