@@ -16,8 +16,16 @@ import turkiyedeinternetchp from "./images/turkiyedeinternetchp.jpg"
 import digitalbusinesscard from "./images/digitalbusinesscard.jpg"
 import airbnbclone from "./images/airbnbclone.jpg"
 import tenziesdicegame from "./images/tenziesdicegame.jpg"
+import quizzicalgame from "./images/quizzicalgame.jpg"
 
 const data = [
+    {
+        title: "Quizzical Game",
+        image: quizzicalgame,
+        description: "📝 Quizzical Game is a category and difficulty based quiz game made with React.",
+        githublink: "https://github.com/mehmetguduk/Quizzical-Game",
+        visitlink: "https://quizzical-game-mg.netlify.app/"
+    },
     {
         title: "Hepsiburada Navbar Design",
         image: hepsiburadanavbardesign,
