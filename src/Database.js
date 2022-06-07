@@ -17,6 +17,7 @@ import digitalbusinesscard from "./images/digitalbusinesscard.jpg"
 import airbnbclone from "./images/airbnbclone.jpg"
 import tenziesdicegame from "./images/tenziesdicegame.jpg"
 import quizzicalgame from "./images/quizzicalgame.jpg"
+import spotifytracker from "./images/spotifytracker.jpg"
 
 const data = [
     {
@@ -53,6 +54,13 @@ const data = [
         description: "🎲 Tenzies Dice Game is a dice game where you try to get all the dice to the same number.",
         githublink: "https://github.com/mehmetguduk/Tenzies-Dice-Game",
         visitlink: "https://tenzies-dice-game-mg.netlify.app"
+    },
+    {
+        title: "Spotify Tracker",
+        image: spotifytracker,
+        description: "🎸 Spotify Tracker is a web application that see the music genres and artists you listen to the most on Spotify.",
+        githublink: "https://github.com/mehmetguduk/Spotify-Tracker",
+        visitlink: "https://spotify-tracker-mg.netlify.app"
     },
     {
         title: "Survey Form",
