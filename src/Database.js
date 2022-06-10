@@ -17,7 +17,7 @@ import digitalbusinesscard from "./images/digitalbusinesscard.jpg"
 import airbnbclone from "./images/airbnbclone.jpg"
 import tenziesdicegame from "./images/tenziesdicegame.jpg"
 import quizzicalgame from "./images/quizzicalgame.jpg"
-import spotifytracker from "./images/spotifytracker.jpg"
+import spotipie from "./images/spotipie.jpg"
 
 const data = [
     {
@@ -56,11 +56,11 @@ const data = [
         visitlink: "https://tenzies-dice-game-mg.netlify.app"
     },
     {
-        title: "Spotify Tracker",
-        image: spotifytracker,
-        description: "🎸 Spotify Tracker is a web application that see the music genres and artists you listen to the most on Spotify.",
-        githublink: "https://github.com/mehmetguduk/Spotify-Tracker",
-        visitlink: "https://spotify-tracker-mg.netlify.app"
+        title: "Spotipie",
+        image: spotipie,
+        description: "🎸 Spotipie is a web application that see the music genres and artists you listen to the most on Spotify.",
+        githublink: "https://github.com/mehmetguduk/Spotipie",
+        visitlink: "https://spotipie-mg.netlify.app"
     },
     {
         title: "Survey Form",
