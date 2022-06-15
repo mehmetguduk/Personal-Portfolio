@@ -153,7 +153,7 @@ const data = [
         image: spotifyunfollower,
         description: "🎶 A web app that shows who hasn't follow you back on Spotify. This project is for education purposes.",
         githublink: "https://github.com/mehmetguduk/Spotify-Unfollowers",
-        visitlink: "https://spotifyunfollowers.netlify.app/"
+        visitlink: "https://spotifyunfollowers-mg.netlify.app/"
     }
 ]
 

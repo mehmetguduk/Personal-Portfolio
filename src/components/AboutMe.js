@@ -15,12 +15,7 @@ export default function AboutMe() {
                     internet. Later, with the clones and demos I made, I developed my web design knowledge by constantly
                     encountering errors and solving them. I continue to improve myself every day.
                     <br /><br />
-                    During my encounter of several projects, I have mastered the following tools: HTML5 markup language; CSS
-                    style sheet language and SASS-SCSS variations; Javascript, TypeScript, Python, C# programming languages;
-                    Node.JS, Angular, .NET Framework, .NET Core, Asp.NET frameworks; jQuery and plugins made with jQuery;
-                    React and Bootstrap libraries; MongoDB, MySQL, SQLite database systems; AWS hosting service; Kali Linux,
-                    Windows 10 operating systems; Notepad++, PyCharm, Visual Studio Code compilers; Git, GitHub version
-                    controllers.
+                    During my encounter of several projects, I have mastered the following tools: HTML5 markup language; CSS style sheet language and SASS-SCSS variations; Javascript, TypeScript, Python programming languages; React, Node.JS, Angular, Bootstrap frameworks and libraries; jQuery and plugins made with jQuery; MongoDB, MySQL, SQLite database systems; AWS hosting service; Kali Linux, Windows 10 operating systems; Notepad++, PyCharm, Visual Studio Code compilers; Git, GitHub version controllers.
                 </p>
             </div>
         </article>
