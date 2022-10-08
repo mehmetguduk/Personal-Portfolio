@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88a77eed.css",
+    "main.js": "/static/js/main.e8876ed1.js",
+    "static/media/t.gif": "/static/media/t.90658919bb3ca72b035d.gif",
+    "static/media/4.jpg": "/static/media/4.7f09d02a1b86096e66f1.jpg",
+    "static/media/tributepage-freecodecamp.jpg": "/static/media/tributepage-freecodecamp.882bcb7640ff597a9846.jpg",
+    "static/media/artpromotionsite.jpg": "/static/media/artpromotionsite.5823a8173dbe255db44d.jpg",
+    "static/media/airbnbclone.jpg": "/static/media/airbnbclone.58d03ec4c2067e448e60.jpg",
+    "static/media/montyhallproblemsimulation.jpg": "/static/media/montyhallproblemsimulation.936c48ba4011f8437c92.jpg",
+    "static/media/mytraveljournal.jpg": "/static/media/mytraveljournal.bdb9ce94726ea31898a1.jpg",
+    "static/media/spotifyadblocker.jpg": "/static/media/spotifyadblocker.45b7ac2b276310ea3787.jpg",
+    "static/media/turkiyedeinternetchp.jpg": "/static/media/turkiyedeinternetchp.a0efb852145be6300e31.jpg",
+    "static/media/surveyform-freecodecamp.jpg": "/static/media/surveyform-freecodecamp.a63d5ba63d83b4f6de75.jpg",
+    "static/media/shutdowntimer.jpg": "/static/media/shutdowntimer.b916e8a4fd88bd88fb00.jpg",
+    "static/media/productlandingpage.jpg": "/static/media/productlandingpage.d5afe1ac2d041f80b582.jpg",
+    "static/media/spotipie.jpg": "/static/media/spotipie.c46e03b08b612085c81a.jpg",
+    "static/media/currencyconverter.jpg": "/static/media/currencyconverter.711aa90d511b56525a52.jpg",
+    "static/media/technicaldocumentationpage.jpg": "/static/media/technicaldocumentationpage.85f346aa20e98139d830.jpg",
+    "static/media/tenziesdicegame.jpg": "/static/media/tenziesdicegame.422ef80859f3d8d643e1.jpg",
+    "static/media/learnquick.jpg": "/static/media/learnquick.718e1c47719d2686eb6c.jpg",
+    "static/media/digitalbusinesscard.jpg": "/static/media/digitalbusinesscard.f2335d6324f764b2ed30.jpg",
+    "static/media/quizzicalgame.jpg": "/static/media/quizzicalgame.9d125c50f294cfac02db.jpg",
+    "static/media/blogtemplate.jpg": "/static/media/blogtemplate.6806e01259c4e21ac6a7.jpg",
+    "static/media/spotifyunfollower.jpg": "/static/media/spotifyunfollower.5d4140cd3165c6e6d0b1.jpg",
+    "static/media/hepsiburadanavbardesign.jpg": "/static/media/hepsiburadanavbardesign.8a0f38b509fee0662880.jpg",
+    "index.html": "/index.html",
+    "main.88a77eed.css.map": "/static/css/main.88a77eed.css.map",
+    "main.e8876ed1.js.map": "/static/js/main.e8876ed1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88a77eed.css",
+    "static/js/main.e8876ed1.js"
+  ]
+}
