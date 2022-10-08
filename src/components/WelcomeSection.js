@@ -7,7 +7,7 @@ export default function WelcomeSection() {
             <img class="welcome-image" src={welcomeimage} alt="Mehmet Güdük with hoodie in Berlin Germany" />
             <header class="welcome-header">
                 <h3 id="greeting">Hello, I'm</h3>
-                <h1 id="name">Mehmet Güdük</h1>
+                <h1 id="name">Mehmet Güdükk</h1>
                 <h4 id="job">{job}</h4>
             </header>
         </section>

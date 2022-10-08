@@ -10,9 +10,6 @@ import './styles/projects.scss';
 import './styles/style.scss';
 import './styles/welcome.scss';
 
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
