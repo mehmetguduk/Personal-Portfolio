@@ -18,6 +18,7 @@ import airbnbclone from "./images/airbnbclone.jpg"
 import tenziesdicegame from "./images/tenziesdicegame.jpg"
 import quizzicalgame from "./images/quizzicalgame.jpg"
 import spotipie from "./images/spotipie.jpg"
+import nextodo from "./images/nextodo.jpg"
 
 const data = [
     {
@@ -33,6 +34,13 @@ const data = [
         description: "🛍️ A user friendly responsive navbar design for Hepsiburada which is one of the most popular online shopping site in Turkey. This project is for education purposes.",
         githublink: "https://github.com/mehmetguduk/Hepsiburada-Navbar-Design",
         visitlink: "https://hepsiburada-mg.netlify.app/"
+    },
+    {
+        title: "Nextodo",
+        image: nextodo,
+        description: "☑️ Nextodo is a web extension you can add and edit your Todos.",
+        githublink: "https://github.com/mehmetguduk/Nextodo",
+        visitlink: "https://nextodo-mg.netlify.app"
     },
     {
         title: "Hosting Service Product Landing Page",
