@@ -19,6 +19,7 @@ import tenziesdicegame from "./images/tenziesdicegame.jpg"
 import quizzicalgame from "./images/quizzicalgame.jpg"
 import spotipie from "./images/spotipie.jpg"
 import nextodo from "./images/nextodo.jpg"
+import watchlify from "./images/watchlify.jpg"
 
 const data = [
     {
@@ -27,6 +28,12 @@ const data = [
         description: "📝 Quizzical Game is a category and difficulty based quiz game made with React.",
         githublink: "https://github.com/mehmetguduk/Quizzical-Game",
         visitlink: "https://quizzical-game-mg.netlify.app/"
+    },
+    {
+        title: "Watchlify",
+        image: watchlify,
+        description: "📺 Watchlify is a web extension where you can follow your favorite shows, create your own list, and save your progress by episode.",
+        githublink: "https://github.com/mehmetguduk/Watchlify"
     },
     {
         title: "Hepsiburada Navbar Design",
