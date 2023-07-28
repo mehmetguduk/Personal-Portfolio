@@ -10,7 +10,6 @@ import spotifyadblocker from "./images/spotifyadblocker.jpg"
 import montyhallproblemsimulation from "./images/montyhallproblemsimulation.jpg"
 import shutdowntimer from "./images/shutdowntimer.jpg"
 import currencyconverter from "./images/currencyconverter.jpg"
-import spotifyunfollower from "./images/spotifyunfollower.jpg"
 import mytraveljournal from "./images/mytraveljournal.jpg"
 import turkiyedeinternetchp from "./images/turkiyedeinternetchp.jpg"
 import digitalbusinesscard from "./images/digitalbusinesscard.jpg"
@@ -162,13 +161,6 @@ const data = [
         image: currencyconverter,
         description: "💵 Currency Converter is an application that you can convert official currencies or crypto currencies. This application is for education purposes.",
         githublink: "https://github.com/mehmetguduk/Currency-Converter"
-    },
-    {
-        title: "Spotify Unfollower",
-        image: spotifyunfollower,
-        description: "🎶 A web app that shows who hasn't follow you back on Spotify. This project is for education purposes.",
-        githublink: "https://github.com/mehmetguduk/Spotify-Unfollowers",
-        visitlink: "https://spotifyunfollowers-mg.netlify.app/"
     }
 ]
 
