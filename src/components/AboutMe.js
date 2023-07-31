@@ -6,7 +6,7 @@ export default function AboutMe() {
                 <p class="aboutme-text">
                     Hello There! I'm Mehmet Güdük. I was born on November 05, 1998 in Ankara, Turkey. As someone who grew up
                     with computer technology, any work in relation to computers is a massive passion for me. I discovered my
-                    interest in design when I installed Adobe Photoshop CS6 on my computer a long time ago. Working on
+                    interest in design when I installed Adobe Photoshop on my computer a long time ago. Working on
                     photos for hours with some chill background music was utterly joyful. Later, I continued this interest
                     by making vector drawings with Adobe Photoshop Illustrator. Then realized that I can turn this into web
                     development.
